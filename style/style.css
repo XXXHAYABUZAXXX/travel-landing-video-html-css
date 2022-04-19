@@ -29,6 +29,16 @@ body {
   z-index: 2;
 }
 
+.showcase.active {
+  right: 300px;
+}
+
+@media (max-width: 991px) {
+  .showcase {
+    padding: 40px;
+  }
+}
+
 .showcase header {
   position: absolute;
   left: 0;
@@ -45,6 +55,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 991px) {
+  .showcase header {
+    padding: 40px;
+  }
 }
 
 .showcase header .logo {
@@ -85,6 +101,12 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 991px) {
+  .showcase .text h2 {
+    font-size: 3em;
+  }
+}
+
 .showcase .text h3 {
   font-size: 4em;
   font-weight: 700;
@@ -92,11 +114,23 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 991px) {
+  .showcase .text h3 {
+    font-size: 2em;
+  }
+}
+
 .showcase .text p {
   font-size: 1.1em;
   font-weight: 400;
   margin: 20px 0;
   max-width: 700px;
+}
+
+@media (max-width: 991px) {
+  .showcase .text p {
+    font-size: 0.9em;
+  }
 }
 
 .showcase .text a {
@@ -161,8 +195,40 @@ body {
   cursor: pointer;
 }
 
-.active {
+.toggle.active {
   background: url(/image/close.png) no-repeat center;
   background-size: 25px;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu ul {
+  position: relative;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+
+.menu ul li a:hover {
+  color: #03a9f4;
 }
 /*# sourceMappingURL=style.css.map */
