@@ -23,13 +23,14 @@ body {
   background: #111;
   color: #fff;
   z-index: 2;
+  transition: all 0.5s;
 
   &.active {
     right: 300px;
   }
 
   // responsive
-  @media (max-width: 991px) {
+  @media (max-width: 798px) {
     padding: 40px;
   }
 
@@ -45,7 +46,7 @@ body {
     align-items: center;
 
     // responsive
-    @media (max-width: 991px) {
+    @media (max-width: 798px) {
       padding: 40px;
     }
 
@@ -86,7 +87,7 @@ body {
       text-transform: uppercase;
 
       // responsive
-      @media (max-width: 991px) {
+      @media (max-width: 798px) {
         font-size: 3em;
       }
     }
@@ -98,7 +99,7 @@ body {
       text-transform: uppercase;
 
       // responsive
-      @media (max-width: 991px) {
+      @media (max-width: 798px) {
         font-size: 2em;
       }
     }
@@ -110,7 +111,7 @@ body {
       max-width: 700px;
 
       // responsive
-      @media (max-width: 991px) {
+      @media (max-width: 798px) {
         font-size: 0.9em;
       }
     }

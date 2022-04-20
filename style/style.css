@@ -27,13 +27,15 @@ body {
   background: #111;
   color: #fff;
   z-index: 2;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .showcase.active {
   right: 300px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 798px) {
   .showcase {
     padding: 40px;
   }
@@ -57,7 +59,7 @@ body {
           align-items: center;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 798px) {
   .showcase header {
     padding: 40px;
   }
@@ -101,7 +103,7 @@ body {
   text-transform: uppercase;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 798px) {
   .showcase .text h2 {
     font-size: 3em;
   }
@@ -114,7 +116,7 @@ body {
   text-transform: uppercase;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 798px) {
   .showcase .text h3 {
     font-size: 2em;
   }
@@ -127,7 +129,7 @@ body {
   max-width: 700px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 798px) {
   .showcase .text p {
     font-size: 0.9em;
   }
